@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EC7F897E2D06CCE400905659 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EC7F897D2D06CCD600905659 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		EC7F897D2D06CCD600905659 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		ECD1440F2D05A6D700EFCB76 /* LittePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -45,6 +50,7 @@
 		ECD144062D05A6D700EFCB76 = {
 			isa = PBXGroup;
 			children = (
+				EC7F897D2D06CCD600905659 /* .gitignore */,
 				ECD144112D05A6D700EFCB76 /* LittePink */,
 				ECD144102D05A6D700EFCB76 /* Products */,
 			);
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC7F897E2D06CCE400905659 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
